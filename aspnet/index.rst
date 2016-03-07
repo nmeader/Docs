@@ -25,7 +25,6 @@ Topics
     fundamentals/index
     mvc/index
     testing/index
-    dnx/index
     data/index
     client-side/index
     mobile/index
