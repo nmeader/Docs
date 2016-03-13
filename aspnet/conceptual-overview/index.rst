@@ -6,5 +6,4 @@ Conceptual Overview
 
    aspnet
    dotnetcore
-   nuget
    understanding-aspnet5-apps
