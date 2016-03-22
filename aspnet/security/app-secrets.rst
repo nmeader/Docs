@@ -34,7 +34,7 @@ Installing the Secret Manager tool
 
 - Install the Secret Manager tool::
 
-  dnu commands install Microsoft.Extensions.SecretManager
+    dnu commands install Microsoft.Extensions.SecretManager
 
 - Test the Secret Manager tool by running the following command::
 
