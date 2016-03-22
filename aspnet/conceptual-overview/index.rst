@@ -2,9 +2,8 @@ Conceptual Overview
 -------------------
 
 .. toctree::
-   :titlesonly:
+  :titlesonly:
 
-   aspnet
-   dotnetcore
-   understanding-aspnet5-apps
-   choosing-the-right-dotnet
+  aspnet
+  understanding-aspnet5-apps
+  choosing-the-right-dotnet
