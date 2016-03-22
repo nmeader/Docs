@@ -99,6 +99,7 @@ pygments_style = 'sphinx'
 
 rst_epilog = """
 .. include:: /../common/authors.txt
+.. _.NET Core: https://dotnet.github.io 
 """
 
 # -- Options for HTML output ----------------------------------------------
