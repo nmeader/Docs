@@ -241,21 +241,17 @@ Run each of the following commands from the **Command Prompt**:
 
 .. code-block:: none
 
-	dnu restore
-	dnx ef migrations add Initial
-	dnx ef database update
+  dotnet restore
+  dotnet ef migrations add Initial
+  dotnet ef database update
 
-.. note:: If ``dnu restore`` is not a recognized command, you may have missed a prerequisite step (or part of a prerequisites step) at the beginning of this topic. However, first check if the **Active** version of the .NET Version Manager (dnvm) is checked. To do this, enter ``dnvm list`` in the command window. If there is no ***** next to any of the versions, set the active version by entering ``dnvm use 1.0.0-rc1-update1 -p``, so that the appropriate version is selected.
-	
-The .NET Version Manager (**dnvm**) is a set of command line utilities that are used to update and configure .NET Runtime. 
-
-`DNX <http://docs.asp.net/en/latest/dnx/overview.html>`_ stands for the .NET Execution Environment. The ``ef`` command is specificed in the *project.json* file of your project. For more information about ``dnvm``, ``dnu``, and ``dnx``, see `DNX Overview <http://docs.asp.net/en/latest/dnx/overview.html>`_.
+The ``ef`` command is specificed in the *project.json* file of your project. 
 
 The "``add Initial``" command creates a migration named "Initial" that adds code to the project, allowing EF to update the database schema. The ``update`` command creates the actual database. After you run this command, the *Migrations* folder of your project will be updated as follows:
 
 .. image:: your-first-aspnet-application/_static/16-migrations.png
 
-.. note:: For general EF command help, enter the following in the command window: ``dnx ef -?``. For help with the ``add`` command, enter the following in the command window: ``dnx ef migrations add -?``. And, for help with the ``update`` command, enter the following in the command window: ``dnx ef database update -?``.
+.. note:: For general EF command help, enter the following in the command window: ``dotnet ef -?``. For help with the ``add`` command, enter the following in the command window: ``dotnet ef migrations add -?``. And, for help with the ``update`` command, enter the following in the command window: ``dotnet ef database update -?``.
 
 Also, you will be able to view the newly created database within **SQL Server Object Explorer**. 
 
