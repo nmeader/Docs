@@ -99,7 +99,11 @@ pygments_style = 'sphinx'
 
 rst_epilog = """
 .. include:: /../common/authors.txt
-.. _.NET Core: https://dotnet.github.io 
+.. _.NET Core: https://dotnet.github.io
+.. _Visual Studio: https://www.visualstudio.com
+.. _Visual Studio Code: https://code.visualstudio.com
+.. _Entity Framework: https://docs.efproject.net
+.. _NuGet: https://nuget.org
 """
 
 # -- Options for HTML output ----------------------------------------------

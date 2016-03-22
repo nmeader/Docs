@@ -7,3 +7,4 @@ Conceptual Overview
    aspnet
    dotnetcore
    understanding-aspnet5-apps
+   choosing-the-right-dotnet

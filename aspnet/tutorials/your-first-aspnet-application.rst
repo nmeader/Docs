@@ -11,9 +11,8 @@ In this tutorial, you’ll create a simple web app using ASP.NET 5. The app stor
 
 Prerequisites
 -------------
-Before you start, make sure that you have the followed the getting started steps for :doc:`/getting-started/installing-on-windows`. This tutorial assumes you have already installed `Visual Studio 2015 <http://go.microsoft.com/fwlink/?LinkId=532606>`_ and the latest `ASP.NET 5  <http://go.microsoft.com/fwlink/?LinkId=627627>`_ runtime and tooling.
 
-.. note:: For additional information about installing ASP.NET 5 on other platforms, see :doc:`/getting-started/index`.
+This tutorial assumes you have already installed `Visual Studio`_ and the latest `ASP.NET 5  <http://go.microsoft.com/fwlink/?LinkId=627627>`_ runtime and tooling.
 
 Create a new ASP.NET 5 project
 ------------------------------
@@ -56,7 +55,7 @@ Visual Studio creates some initial folders and files for your project. The prima
      - Purpose	
 
    * - project.json      	
-     - The presence of a *project.json* file defines a .NET Execution Environment (DNX) project. It is the *project.json* file that contains all the information that DNX needs to run and package your project. For additional details, including the *project.json* file schema, see :doc:`/dnx/projects`.
+     - Defines your `.NET Core`_ project settings and dependencies.
 
    * - global.json    
      - Visual Studio uses this file to configure the project.
@@ -86,11 +85,11 @@ This project uses :doc:`MVC </mvc/overview>`. MVC stands for Model-View-Controll
 	
 Understanding .NET Core
 ^^^^^^^^^^^^^^^^^^^^^^^
-.NET Core 5 is a modular runtime and library implementation that includes a subset of the .NET Framework. .NET Core 5 has been designed for Windows, Linux and OS X. It consists of a set of libraries, called “CoreFX”, and a small, optimized runtime, called “CoreCLR”. .NET Core is open-source, so you can follow progress on the project and contribute to it on GitHub. For more information, see :doc:`/getting-started/choosing-the-right-dotnet`.
+.NET Core 5 is a modular runtime and library implementation that includes a subset of the .NET Framework. .NET Core 5 has been designed for Windows, Linux and OS X. It consists of a set of libraries, called “CoreFX”, and a small, optimized runtime, called “CoreCLR”. .NET Core is open-source, so you can follow progress on the project and contribute to it on GitHub. For more information, see :doc:`/conceptual-overview/choosing-the-right-dotnet`.
 	 
 Entity Framework
 ----------------
-`Entity Framework <http://docs.efproject.net>`_ (EF) is an object-relational mapping (ORM) framework. It lets you work with relational data as objects, eliminating most of the data-access code that you'd usually need to write. Using EF, you can issue queries using LINQ, then retrieve and manipulate data as strongly typed objects. LINQ provides patterns for querying and updating data. Using EF allows you to focus on creating the rest of your application, rather than focusing on the data access fundamentals. 
+`Entity Framework`_ (EF) is an object-relational mapping (ORM) framework. It lets you work with relational data as objects, eliminating most of the data-access code that you'd usually need to write. Using EF, you can issue queries using LINQ, then retrieve and manipulate data as strongly typed objects. LINQ provides patterns for querying and updating data. Using EF allows you to focus on creating the rest of your application, rather than focusing on the data access fundamentals. 
 
 Open the *project.json* file. In the dependencies section, you will see the following lines related to EF:
 
